@@ -1,3 +1,7 @@
+/* hoja de inicio donde se adopta el module mendiante el nombre de
+ * 'AppModule'
+ */
+
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

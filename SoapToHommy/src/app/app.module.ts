@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
     BrowserModule
   ],
   providers: [],
+  //lanzamiento de bootstrap tomando AppComponentde el archivo main.ts
   bootstrap: [AppComponent]
 })
 export class AppModule { }
