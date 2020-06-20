@@ -11,6 +11,9 @@ OS: Debian 10
 Plugin: Angular
 
 npm install bootstrap		//dentro de la carpeta del proyecto
+npm install jquery --save
+npm install popper.js --save
+
 
 ________________________________________-
 # SoapDommy
