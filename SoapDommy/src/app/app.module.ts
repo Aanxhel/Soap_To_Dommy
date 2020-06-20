@@ -2,11 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ArticuloComponent } from './articulo/articulo.component';             //se crea componente [proyecto][component]
+import { ProbandoComponent } from './probando/probando.component';
+import { CatalogoComponent } from './catalogo/catalogo.component';
 
 @NgModule({
   declarations: [
-    AppComponent,ArticuloComponent
+    AppComponent, ProbandoComponent, CatalogoComponent
   ],
   imports: [
     BrowserModule
