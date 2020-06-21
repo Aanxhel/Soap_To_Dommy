@@ -10,7 +10,7 @@ OS: Debian 10
 
 Plugin: Angular
 
-`npm install bootstrap --save`		//dentro de la carpeta del proyecto
+`npm install bootstrap --save` dentro de la carpeta del proyecto
 
 `npm install jquery --save`
 
