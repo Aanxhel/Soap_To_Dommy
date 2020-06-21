@@ -10,12 +10,14 @@ OS: Debian 10
 
 Plugin: Angular
 
-npm install bootstrap --save		//dentro de la carpeta del proyecto
-npm install jquery --save
-npm install popper.js --save
+`npm install bootstrap --save`		//dentro de la carpeta del proyecto
+
+`npm install jquery --save`
+
+`npm install popper.js --save`
 
 
-________________________________________-
+________________________________________
 # SoapDommy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
