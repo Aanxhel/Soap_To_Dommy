@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './salazar.component.html',
   styleUrls: ['./salazar.component.css']
 })
-export class SalazarComponent implements OnInit {
+export class SalazarComponent {
 
   constructor() { }
 
