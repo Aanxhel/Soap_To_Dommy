@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ItemSoapComponent } from './item-soap/item-soap.component';
+import { SalazarComponent } from './salazar/salazar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ItemSoapComponent
+    ItemSoapComponent,
+    SalazarComponent
   ],
   imports: [
     BrowserModule
