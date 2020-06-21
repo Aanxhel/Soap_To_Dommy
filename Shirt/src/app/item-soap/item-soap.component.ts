@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./item-soap.component.css']
 })
 export class ItemSoapComponent  {
-
-  constructor() { }
-
+	/*
+		en este punto podemos asignar las variables 
+	*/
+	nombreItem:string = "café" ;
+	pesoItem:number = "35.00";
+	valorItem:number = "50";
 
 }
