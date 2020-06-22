@@ -1,4 +1,15 @@
 <body>
+	<!--
+		crearemos una variable para guardar la variable
+	-->
+	<label>Titulo Jabon</label>
+	
+	<input
+		type="text"
+		class = "form-control"
+		(input)="onModificarJabon($event)">
+		{{ tituloJabon }}  
+	
 	<h1>Salazar</h1>
 	<p>
 		<button type="button" 
@@ -8,6 +19,9 @@
 			Crear Jabon
 		</button>
 	</p>
+		<!--
+			se toma de la clase ts
+		-->
 		{{addJabonStatus}}
 	<p>
 	</p>
