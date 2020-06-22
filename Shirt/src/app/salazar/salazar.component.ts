@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SalazarComponent {
 
-  constructor() { }
+	addJabon = false;
+	addJabonStatus = "Sin Stock";
+	
+	constructor(){
+		setTimeout(
+			()=>{
+				this.addJabon = true; 				//notar que tienen (-)
+			}
+			,3000
+		);
+	}
+	
+	
+	onCrearJabon(){
+		this.addJabonStatus = "jabon agregado";
+	}
 
 }

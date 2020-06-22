@@ -1,1 +1,14 @@
-<p>salazar works!</p>
+<body>
+	<h1>Salazar</h1>
+	<p>
+		<button type="button" 
+		class="btn btn-primary" 
+		[disabled] = "!addJabon" 
+		(click)="onCrearJabon()">
+			Crear Jabon
+		</button>
+	</p>
+		{{addJabonStatus}}
+	<p>
+	</p>
+</body>

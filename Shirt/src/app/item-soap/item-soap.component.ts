@@ -11,6 +11,12 @@ export class ItemSoapComponent  {
 	*/
 	nombreItem:string = "café" ;
 	pesoItem:number = "35.00";
-	valorItem:number = "50";
+	
+	//para acceder a una variable en privado se crea el elemento
+	private valorItem:number = "50";
+	
+	getValorItem():number{
+		return this.valorItem;
+	}
 
 }
