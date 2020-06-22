@@ -9,6 +9,7 @@ export class SalazarComponent {
 
 	addJabon = false;
 	addJabonStatus = "Sin Stock";
+	tituloJabon = "";
 	
 	constructor(){
 		setTimeout(
@@ -22,6 +23,10 @@ export class SalazarComponent {
 	
 	onCrearJabon(){
 		this.addJabonStatus = "jabon agregado";
+	}
+	
+	onModificarJabon(event : Event){
+		this.tituloJabon = (<HTMLInputElement>event.target).value;
 	}
 
 }
