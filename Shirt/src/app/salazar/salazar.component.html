@@ -5,31 +5,20 @@
 	<label>Titulo Jabon</label>
 	
 	<p>
-		<input
-		type="text"
-		class = "form-control"
-		[( ngModel )] = "tituloJabon">
-		{{ tituloJabon }} 
+		<input type="text" class = "form-control" [( ngModel )] = "tituloJabon">
+		{{ tituloJabon }}! 
 	</p>
 	
 	<h1>Salazar</h1>
 	
 		
 	<p>
-		<button type="button" 
-		class="btn btn-primary" 
-		[disabled] = "!addJabon" 
-		(click)="onCrearJabon()">
+		<button type="button" class="btn btn-primary" [disabled] = "!addJabon" (click)="onCrearJabon()">
 			Crear Jabon
 		</button>
 		<!--
 			se toma de la clase ts
 		-->
-		
-	</p>
-	
-	<p>
 		{{addJabonStatus}}
 	</p>
-		
 </body>
