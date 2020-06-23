@@ -8,15 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ItemSoapComponent  {
 	/*
 		en este punto podemos asignar las variables 
-	*/
-	nombreItem:string = "café" ;
-	pesoItem:number = "35.00";
+
+	//nombreItem:string = "café" ;
+	//pesoItem:number = "35.00";
 	
 	//para acceder a una variable en privado se crea el elemento
-	private valorItem:number = "50";
+	//private valorItem:number = "50";
 	
 	getValorItem():number{
 		return this.valorItem;
 	}
+	*/
 
 }
