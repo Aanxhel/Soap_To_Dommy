@@ -19,8 +19,7 @@ export class SalazarComponent {
 			,3000
 		);
 	}
-	
-	
+		
 	onCrearJabon(){
 		this.addJabonStatus = "jabon agregado";
 	}

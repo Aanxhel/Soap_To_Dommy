@@ -4,13 +4,17 @@
 	-->
 	<label>Titulo Jabon</label>
 	
-	<input
+	<p>
+		<input
 		type="text"
 		class = "form-control"
-		(input)="onModificarJabon($event)">
-		{{ tituloJabon }}  
+		[( ngModel )] = "tituloJabon">
+		{{ tituloJabon }} 
+	</p>
 	
 	<h1>Salazar</h1>
+	
+		
 	<p>
 		<button type="button" 
 		class="btn btn-primary" 
@@ -18,11 +22,14 @@
 		(click)="onCrearJabon()">
 			Crear Jabon
 		</button>
-	</p>
 		<!--
 			se toma de la clase ts
 		-->
-		{{addJabonStatus}}
-	<p>
+		
 	</p>
+	
+	<p>
+		{{addJabonStatus}}
+	</p>
+		
 </body>
