@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PersonaComponent implements OnInit {
 
+	nombrePersona:string = "Yayoi";
+	apellidoPersona:string = "Cuesta";
+	edadPersona:number = 20;
+
   constructor() { }
 
   ngOnInit(): void {
+	
   }
 
+	
 }
