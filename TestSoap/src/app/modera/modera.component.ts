@@ -7,4 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModeraComponent  {
 	agregarPersona = false;
+	agregarPersonaStatus = "No se ha agregado ninguna persona";
+	
+	constructor(){
+		setTimeout(
+			()=> {
+				this.agregarPersona= true;
+			}
+			,3000);
+	}
+	
+	onCrearPersona(){
+		this.agregarPersonaStatus = "persona agregada!!";
+	}
 }
