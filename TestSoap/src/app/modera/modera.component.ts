@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ModeraComponent  {
 	agregarPersona = false;
 	agregarPersonaStatus = "No se ha agregado ninguna persona";
+	tituloPersona = "Ingeniero";
 	
 	constructor(){
 		setTimeout(
@@ -19,5 +20,9 @@ export class ModeraComponent  {
 	
 	onCrearPersona(){
 		this.agregarPersonaStatus = "persona agregada!!";
+	}
+	
+	onModificarPersona(event: Event){
+		this.tituloPersona = (<HTMLInputElement>event.target).value;
 	}
 }
