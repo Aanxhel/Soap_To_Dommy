@@ -7,6 +7,7 @@ ______________________________________________________
 recursos utilizados:
 
 OS: Debian 10
+IDE: Netbeans 12
 
 Plugin: Angular
 
